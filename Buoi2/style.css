@@ -1,0 +1,53 @@
+/* chú thích trong CSS */
+/* selector* áp dụng cho toàn bộ phần tử */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+/* phần viết với nội dung trồng lên nhau không xuất hiện thanh cuộn */
+}
+p{
+    color:blueviolet;
+    background-color: yellow;
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+
+#maudo {
+    width: 100%; 
+/* bằng với kích thước của cửa sổ trình duyệt */
+    height: 300px;
+    background-color: pink;
+    margin-top: 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+/* ba thẻ mới hiện ra border */
+    border: 2px dotted orange
+/* cách viết rút gọn */
+}
+/* div có thể bao bọc các thẻ khác kích thước, tự lớn ra theo nội dung */
+
+#mauxanh {
+    margin-top: 30px;
+    width: 50%;
+    height: 300px;
+    background-color: black;
+
+}
+
+.style-border {
+    border: 2px dotted orange;
+}
+
+.pad {
+    padding: 10px 20px 30px 40px;
+}
+
+#radius 
+{
+    border-radius: 4;
+    /* bo viền, bo cực đại sẽ thành hình tròn */
+}

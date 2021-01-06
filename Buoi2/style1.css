@@ -1,0 +1,45 @@
+* { 
+
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.number1 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+.number2 {
+    padding-left: 40px;
+}
+.number3 {
+    padding-left: 40px; 
+    padding-right: 40px;
+}
+
+#end1 {
+        text-align: right;
+        margin-right: 50px;
+        
+    }
+#end2 {
+        text-align: right;
+        margin-right: 100px;
+    
+    }   
+
+#end3 {
+    text-align: right;
+    margin-right: 105px;
+}
+
+#all {
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid black;
+    padding: 20px 20px 60px 20px;
+}
+
+
