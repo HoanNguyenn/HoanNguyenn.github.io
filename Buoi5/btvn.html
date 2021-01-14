@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazada</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .all {
+            background-color: white;
+            height: 300px;
+            width: 200px;
+            margin: 30px;
+            padding: 10px 0 0 10px;
+        }
+        .container {
+            background-color: red;
+        }
+        .all li{
+            list-style-type: none;
+        }
+        .all li a {
+            text-decoration: none;
+        }
+        .one {
+            position: relative;
+        }
+        .sub-one {
+            position: absolute;
+            left: 190px;
+            top: -10px;
+            display: none; 
+            height: 300px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 1px 1px 1px 1px rgba(245,114,36, 0.5);
+            padding: 10px;
+        
+            
+        }
+        .one li:hover {
+            background-color: #ECEFF1;
+           
+        }
+        .one li a:hover {
+            color: #F36D00;
+        }
+        .sub-one li a:hover {
+            color: #F36D00;
+        }
+        .one li:hover .sub-one {
+            display: block;
+        }
+
+        .sub-two {
+            position: absolute;
+            left: 190px;
+            top: 0px;
+            display: none; 
+            height: 300px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 1px 1px 1px 1px rgba(245,114,36, 0.5);
+            padding: 10px;
+        }
+
+        .sub-one li:hover .sub-two {
+            display: block;
+        }  
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="all">
+    <ul class="one">
+        <li><a href="#">Phụ kiện điện tử</a>
+           <ul class="sub-one">
+               <li ><a href="#">Phụ kiện di động</a>
+                <ul class="sub-two">
+                    <li ><a href="#"> Pin sạc dự phòng</a></li>
+                    <li ><a href="#"> Cap & dock sạc </a></li>
+                    <li ><a href="#"> Bộ có dây </a></li>
+                    <li ><a href="#"> Bộ sạc không dây</a></li>
+                </ul>  
+               </li>
+               <li ><a href="#">Thiết bị thông minh</a></li>
+               <li ><a href="#">Thiết bị số</a></li>
+               <li ><a href="#">Thiết bị máy tính</a></li>
+           </ul>
+        </li>
+        <li class="one"><a href="#">Siêu thị tạp hóa</a></li>
+        <li class="one"><a href="#">Thời trang nam</a></li>
+        <li class="one"><a href="#">Thể thao & du lịch</a></li>
+    </ul>
+    </div>
+    </div>
+
+
+</body>
+</html>

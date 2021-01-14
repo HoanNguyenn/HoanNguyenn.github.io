@@ -66,12 +66,13 @@ display: flex;
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+   
+
 }
 .menu-list li a:hover {
     color: gray;
     /* sẽ in đậm khi di chuột qua */
 }
-
 
 .content {
     padding-top: 48px;
@@ -88,9 +89,11 @@ body {
     padding-right: 15px;
 }
 
-.partone img {
-    padding: 0 15px;
+
+.anh1 {
     border-radius: 4px;
+    padding: 0 15px;
+
 }
 
 .parttwo1 {
@@ -144,14 +147,14 @@ img {
   
     text-transform: uppercase;
     margin-top: 15px;
-    line-height: 1.5;
-}
+    line-height: 1.5;}                        
 
 .dong2 {
     margin: 0px 30.5px;
     font-size: 14px;
     color: #999999;
 }
+
 
 .three-header {
     display: flex;
@@ -173,10 +176,11 @@ img {
     flex-wrap: wrap;
     background-color: #E4F2FD;
     padding-bottom: 5rem;
+    
 }
 
 .chia3 {
-    max-width: 33.333333%;
+    max-width: 33.3333333333333%;
     padding: 50px 15px 0 15px;
     display: flex;
     flex-direction: column;   
@@ -190,8 +194,8 @@ img {
 }
 
 .suaanh {
-    width: 391.1px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
 }
 
 .suaanh img {
@@ -213,20 +217,29 @@ img {
 }
 
 .partfour-all {
-    padding: 80px 0;
+    padding: 80px 20px;
+    margin: 0 6.6666667px;
 
 }
 
 .partfour-header {
-
     font-size: 1.5rem;
     margin-bottom: 32px;
     text-align: center;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
 }
 .partfour-all1 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.divide {
+    max-width: 33.3333333333333%;
+    display: flex;
+    flex-direction: column;  
+    padding: 0 15px 0 0;
 }
 
 .text1 {
@@ -240,3 +253,47 @@ img {
 .partfive-all {
     padding: 50px 15px;
 }
+
+/* .icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0,123,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+
+
+} */
+
+/* .icon-messeger */ 
+
+/* css menu đa cấp */
+.menu-list{
+    position: relative;
+}
+.sub-menu {
+    position: absolute;
+    padding-top: 10px;
+    display: none;
+    /* ẩn một đối tượng đi */
+}
+.sub-menu li {
+    background-color: rosybrown;
+    padding: 10px;
+}
+
+.sub-menu li a {
+    text-align: center;
+}
+
+.menu-list li:hover .sub-menu {
+    display: block;
+
+/* .sub-menu là đối tượng chịu ảnh hưởng */
+/* display: block */
+
+}
+
+.menu-list li:hover 
