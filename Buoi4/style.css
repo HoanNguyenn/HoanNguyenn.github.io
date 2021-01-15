@@ -66,21 +66,21 @@ display: flex;
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-   
-
 }
 .menu-list li a:hover {
     color: gray;
     /* sẽ in đậm khi di chuột qua */
 }
 
-.content {
-    padding-top: 48px;
-}
+
 
 .partone-all {
     display: flex;
     flex-direction: row;
+}
+.part-one {
+    display: flex;
+    justify-content: space-between;
 }
 .parttwo {
     display: flex;
@@ -90,20 +90,21 @@ body {
 }
 
 
-.anh1 {
-    
+.anh1 img {
     margin: 0 15px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px 6px 0 0;
-
+    border-radius: 6px;
+    overflow: hidden;
+    height:100%;
 }
 
 .parttwo1 {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     background-color: #fff;
-    height: 21.5%;
+    height: 23.5%;
     display: flex;
+    
 }
 
 .post-in {
@@ -122,7 +123,7 @@ body {
 .parttwo2 , .parttwo3 , .partwo4 {
     margin-top: 20px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: #fff;
     height: 21.5%;
     display: flex;
@@ -131,6 +132,7 @@ body {
 
 img {
     height: 100%;
+    border-radius: 6px 0 0 6px;
 }
 
 .parttwo-all {
@@ -178,7 +180,8 @@ img {
     flex-wrap: wrap;
     background-color: #E4F2FD;
     padding-bottom: 5rem;
-    
+    padding-left: 30px ;
+    padding-right: 30px;
 }
 
 .chia3 {
@@ -222,8 +225,6 @@ img {
 
 .partfour-all {
     padding: 80px 20px;
-    
-
 }
 
 .partfour-header {
@@ -233,10 +234,12 @@ img {
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
+    padding: 0 30px;
 }
 .partfour-all1 {
     display: flex;
     justify-content: space-between;
+    padding: 0 30px;
     
 }
 
@@ -360,4 +363,11 @@ img {
 .fa-2x {
  
     color: #919294;;
+}
+
+.content{
+    padding: 48px 30px 0 30px ; 
+}
+.footer {
+    padding: 0 30px;
 }
