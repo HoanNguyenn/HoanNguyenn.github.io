@@ -180,8 +180,8 @@ img {
     flex-wrap: wrap;
     background-color: #E4F2FD;
     padding-bottom: 5rem;
-    padding-left: 30px ;
-    padding-right: 30px;
+    padding-left: 20px ;
+    padding-right: 20px;
 }
 
 .chia3 {
@@ -234,12 +234,12 @@ img {
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 .partfour-all1 {
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 20px;
     
 }
 
@@ -324,7 +324,7 @@ img {
 .footer {
     display: flex;
     justify-content: space-around;
-    padding: 48px 0;
+    padding: 48px 20px;
     background-color: #464646;
 }
 .footer-one {
@@ -366,8 +366,5 @@ img {
 }
 
 .content{
-    padding: 48px 30px 0 30px ; 
-}
-.footer {
-    padding: 0 30px;
+    padding: 48px 20px 0 20px ; 
 }
