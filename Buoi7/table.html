@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color:pink;
+        }
+        /* odd: số lẻ
+        even: số chẵn */
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <!-- tạo hàng -->
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>SDT</th>
+            <th>Ghi chú</th>
+        </tr>
+
+        <tr>
+            <td>1.</td>
+            <td>Ruanshihuan</td>
+            <td>038 xxxxx</td>
+            <td>Số điện thoại không đầy đủ</td>
+        </tr>
+
+        <tr>
+            <td>2.</td>
+            <td>Ruanshixiang</td>
+            <td rowspan="2">Merge cột 2 hàng</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3.</td>
+            <td>wangjiang</td>
+            <td colspan="2">Merge 2 ô</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Không có tên và số điện thoại</td>
+        </tr>
+        <!-- :nth-elild(n) -->
+    </table>
+</body>
+</html>

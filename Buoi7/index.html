@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#" method="POST">
+        <input type="text" placeholder="Username" />
+        <br /><br />
+        <label for="password">Password: </label>
+        <!-- tạo nhãn cho input, khi nhấn vào chữ nó sẽ tick vào ô-->
+        <input id="password" type="password" name="password"/>
+        <!-- name: phân biệt các thẻ input với nhau -->
+        <br /><br />
+        <label for="">Gender: </label>
+        <input id="male" type="radio" name="gender" value="male"/><label for="male">Male</label>
+        <input id="female" type="radio" name="gender" value="female" /><label for="female">Female</label>
+        <input id="other" type="radio" name="gender" value="other"/><label for="other">Other</label>
+        <br /><br />
+        <label for="book">Favorites: </label>
+        <input id="book" type="checkbox" name="favorites" value="book" ><label for="book">Read Book</label>
+        <input id="music" type="checkbox" name="favorites"value="music"><label for="music">Listen Music</label>
+        <input id="swim" type="checkbox" name="favorites" value="swim"> <label for="swim">Swimming</label>
+        <input id="buch" type="checkbox" name="favorites" value="soccer"> <label for="soccer">Play Soccer</label>
+       <br>
+       <label for="">Countries</label>
+       <select name="countries" id="countries">
+          <option value="">Hà Nội</option>
+          <option value="">HCM</option>
+          <option value="">Đà Nẵng</option>
+      </select>
+      <button type="submit">Submit</button> 
+      <button type="reset">Reset</button>
+      </form>
+</body>
+</html>

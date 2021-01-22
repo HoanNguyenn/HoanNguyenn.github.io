@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="shortcut icon"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEVKbqj///4+ZqRBaKWer82yv9fR2eY7ZKO/yd5HbKdGa6fl6fFRc6s3YqLT2ufr7vSnttF1jbmMn8Pb4eyks8/4+ftffbCtu9PJ0uKEmb5phLTw8/Zviba4w9lkgbFUdq2VpscwXaB+lb5ICEnlAAADDklEQVR4nO3da2/aMBSA4cQGzAm3QrkVytr1///Iwbqu0hpy8ZLmHOt9+60Skh8ZYhobms2ztEvdR0RERERERERERET0LYmI996F9xYhOOe8L66/zmTosXWQdy7brzfbw/Q4+d3xOL0cDqPN0/q0n4t3lpEiLsw308dzfq/deTaxO4/i/Pqyuov726kYeqRxSdiPG/BuQpNzWCyej414154tzmE4TZr6TM5hUVya+/L8hzlhWDd7/X30Yk24eGjly3NjG/Aija8wHw095HaJPLYF5qZWfJFZa2AupoTtZzDPC0PC0Po1eMvbEYZtDHAXhh5344pTDDA/L4YeeNPER1xlbkIzc+jarvTWhPKyixRaeZa6Vu+2LQqzSKAZoTvECmc2hFLcv9tU09KGsHiKBeZLG9fSuPdrhuZQJHKpuDaxIVxHA43MYcP3M7vV7EurrR969E0Ky3rdcXPK3J/dGfdeuP44E8As1K4V42Jh6O/AkuqAbzaWhLvJjxrgyDiwdr2fmd4jvOVfq4WvNq4mFfmaxcLYXe2S3LgSuDKxpldWI3xMXji1fiWtF7qhB/jf1QgvyQtH5hcLhAgNhBCh/hAi1B9ChPpDiFB/CBHqLy2huK/9rBZuFyWP+UzZnoaclpOvVW8fnkse8dlS2ect/KgSE5OyJ3EPwk3ywnXyz1Jln87rQ5j8HO6TFw5N+qc+hMnPobKTRN0Ld8p2F7sXavs0Qg9CZecYuhdqO4vSvVDbWZTuhdpOsncv1HbOu3vhMfk51HbapnvhQdcfwD0IH5Kfw4fk51DZbZoehE+6bmIgjOgteaG2L1HqXqjsRlQm+2lJ1V8qtCp7yEdjZcDu956UrRV3Smv/sCyECPWHEKH+ECLUH0KE+kOIUH8IEeoPIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQfwgR6g8hQv0hRKg/hAj1hxCh/hAi1B9ChPpDiFB/CBHqDyFC/SFEqD+ECPXnLpVCG/95u7LibVmVtu/YiakIVSUAJCIiIiIiIiIiIiL61uZDD6Dn5r8ALIw4j4izd7QAAAAASUVORK5CYII="
+        type="img/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f0f2f5;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 112px;
+            padding-top: 72px;
+            margin: 0 auto;
+            padding: 20px 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width: 980px;           
+        }
+
+        .one {
+            box-sizing: border-box;
+            padding-right: 32px;
+            width: 580px;
+            font-weight: normal;
+        }
+
+        .one_1 {
+            padding: 112px 0 16px;
+        }
+
+        .fb_logo {
+            height: 106px;
+            margin: -28px;
+            font-size: 28px;
+        }
+
+        .one_2 {
+            width: 500px;
+            color: #1c1e21;
+        }
+        h2 {
+            font-weight: normal;
+            margin-top: 0;
+        }
+
+        .two {
+            height: 380px;
+            width: 396px;
+            padding-bottom: 24px;
+            padding-top: 10px;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+            margin: 40px 0 0;
+            padding: 30px 0 0 0;
+        }
+
+
+        .two_1,.two_2 {
+            font-size: 17px;
+            padding: 14px 16px;
+            width: 330px;
+            border-radius: 6px;
+            background: #FFFFFF;
+            border: 1px solid #dddfe2;
+            color: #1d2129;
+        }
+
+        .two_3 {
+            background-color: #1877f2;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 48px;
+            width: 330px;
+            text-decoration: none;
+
+        }
+
+        .two_four {
+            margin: 16px 0 0;
+        }
+
+        .line {
+            border-bottom: 1px solid #dadde1;
+            margin: 20px 16px;
+            text-align: center;
+        }
+
+        .two_5 {
+            border-radius: 6px;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            background-color: #42b72a;
+            border: none;
+            text-shadow: none;
+            margin-bottom: 20px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .two_3 {
+            color: #fff;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1c1e21;
+        }
+
+        .three {
+            font-size: 14px;
+            margin-top: 28px;
+            color: #1c1e21;
+            text-align: center;
+        }
+
+        .three_1 {
+            font-weight: 600px;
+            font-weight: bold;
+
+        }
+        .two_4 {
+            color: #1877f2;
+        }
+        .two_4:hover {
+            text-decoration: underline;
+        }
+        .fa-arrow-left {
+            position: fixed;
+            font-size: 40px;
+            top: 90%;
+            left: 95%;
+            color: black;}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">
+            <div class="one_1">
+                <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+                alt="Facebook">
+            </div>
+            <div class="one_2">
+                <h2 class="_8eso">Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của bạn.</h2>
+            </div>
+        </div>
+        <div class="tt">
+            <div class="two">
+                <form action="#" method="POST">
+                    <div class="two_one ng">
+                        <div class="part-one">
+                            <input class="two_1" type="text" placeholder="Email hoặc số điện thoại" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="two_two ng">
+                            <input class="two_2" id="password" type="password" placeholder="Mật khẩu" />
+                    </div>
+                    <br/>
+                    <div class="two_three ng">
+                        <button class="two_3" type="submit">Đăng nhập</button>
+                    </div>
+                    <div class="two_four">
+                        <a href="#" class="two_4">Quên mật khẩu?</a>
+                    </div>
+                    <div class="line"></div>
+                    <div class="two_five">
+                        <button type="button" class="two_5">Tạo tài khoản mới </button>
+                    </div>
+
+            </div>
+            <div class="three">
+                <a href="#" class="three_1">Tạo Trang</a>
+                dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.
+            </div>
+        </div>
+    </div>
+    <a href="../Buoi7/pro.html"><i class="fas fa-arrow-left"></i></a>
+</body>
+
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoanNguyen</title>
+    <link rel="shortcut icon" href="./photo/istockphoto-974231830-612x612.jpg" type="img/x-con">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 1000px;
+            margin: auto;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 80px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        #logo {
+            font-family: 'Noto Sans JP', sans-serif;
+            text-transform: uppercase;
+            font-size: 60px;
+            font-weight: 500;
+        }
+
+        .others {
+            display: flex;
+            flex-direction: row;
+            width: 20%;
+            margin-bottom: 0;
+        }
+
+        .others li {
+
+            list-style-type: none;
+            padding-right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .others i {
+            padding-right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .content {
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .content img {
+            width: 230px;
+            
+        }
+
+        .footer {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .fas {
+            position: fixed;
+            top: 90%;
+            left: 95%;
+            font-size: 20px;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .header a:hover {
+            color: wheat;
+        }
+
+        .content_one {
+            position: relative;
+            display: inline-block;
+            margin: 8px;
+        }
+
+        .overlay {
+            position: absolute;
+            transition: all .5s ease-in-out;
+            opacity: 0;
+            background-color: wheat;
+            padding: 10px;
+        }
+
+        .content_one:hover .overlayLeft {
+            opacity: 0.8;
+        }
+
+        .text {
+            
+            font-family: 'Noto Sans JP', sans-serif;
+            color: black;
+            position: absolute;
+            top: 45%;
+            bottom: 45%;
+            left: 25px;
+            font-size: 20px;
+            text-transform: uppercase;
+            width: 100%;
+        }
+
+        .overlayLeft {
+            width: 0;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .content_one:hover .overlay {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div id="logo">
+                Hoan Nguyen
+            </div>
+            <ul class="others">
+                <li class="one"><a href="./about.html">About</a></li>
+                <li class="two"><a href="./project.html">Project</a></li>
+                <i class="fab fa-facebook-f"></a></i>
+                <i class="fab fa-instagram"></i>
+            </ul>
+        </div>
+        <br>
+        <div class="content">
+            <div class="content_1">
+                <div class="content_one">
+
+                    <a href="../Buoi1/btvn.html"><img src="./photo/1.png" alt="anh1"></a>
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm buổi 1</div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi2/bttrenlop2.html"><img src="./photo/2.png" alt="anh2"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm 1 buổi 2</div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi2/btvn.html"><img src="./photo/3.png" alt="anh3"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm 2 buổi 2</div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi3/baitaptrenlop.html"><img src="./photo/4.png" alt="anh4"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm buổi 3</div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi4/baitaptrenlop.html"><img src="./photo/5.png" alt="anh5"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm buổi 4</div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi5/btvn.html"><img src="./photo/7.png" alt="anh6"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm buổi 5</div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi6/album.html"><img src="./photo/8.png" alt="anh7"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm 1 buổi 6</div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi6/ani.html"><img src="./photo/6.png" alt="anh8"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm 2 buổi 6</div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi6/btaphotoshop.html"><img src="./photo/9.png" alt="anh9"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm 3 buổi 6 </div>
+                    </div>
+                </div>
+                <div class="content_one">
+                    <a href="../Buoi7/facebook.html"><img src="./photo/10.png" alt="anh10"></a>
+
+                    <div class="overlay overlayLeft">
+                        <div class="text">Sản phẩm buổi 7</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <i class="far fa-copyright"></i>
+            2020 Hoan Nguyen
+        </div>
+        <a href="#logo"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+</body>
+
+</html>
